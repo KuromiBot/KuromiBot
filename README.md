@@ -178,11 +178,14 @@ Project Link: [https://github.com/KuromiBot/KuromiBot](https://github.com/Kuromi
 
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
+This project couldn't have been made without the following people:
+* **You** - Checking this repository out, really appreciated!
+* @mezotv - The author of the amazing [discord.js template](https://github.com/mezotv/Discord-Bot-Template) that actually helped me get this thing here
+* [discord.js](https://github.com/discordjs/discord.js) - discord.js API wrapper
+* Contributors
 
-* [discord.py](https://github.com/Rapptz/discord.py)
-
+And many, many more package authors, Stack Overflow members, Discord users, and Neovim.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
@@ -198,5 +201,3 @@ Project Link: [https://github.com/KuromiBot/KuromiBot](https://github.com/Kuromi
 [license-shield]: https://img.shields.io/github/license/KuromiBot/KuromiBot.svg?style=for-the-badge
 [license-url]: https://github.com/KuromiBot/KuromiBot/blob/master/LICENSE
 [product-screenshot]: images/screenshot.png
-[DPY]: https://img.shields.io/badge/discord.py-000000?style=for-the-badge&logo=python&logoColor=white
-[DPY-url]: https://github.com/Rapptz/discord.py
