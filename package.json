@@ -6,6 +6,7 @@
   },
   "dependencies": {
     "@discordjs/rest": "^1.7.0",
+    "better-sqlite3": "^8.7.0",
     "chalk-advanced": "^1.0.6",
     "discord-api-types": "^0.37.38",
     "discord-gamecord": "^4.4.1",

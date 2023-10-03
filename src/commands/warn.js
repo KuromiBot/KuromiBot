@@ -11,12 +11,12 @@ const {
     data: new SlashCommandBuilder()
     .setName("warn")
     .setDescription("warn your friends for being stupid")
-    .setUserOption(option => option.setName('loser').setDescription('The user to warn').setRequired(true))
-    .addStringOption(option => option.setName('reason').setDescription('The petty reasoning').setRequird(true)),
+    .addUserOption(option => option.setName('loser').setDescription('The user to warn').setRequired(true))
+    .addStringOption(option => option.setName('reason').setDescription('The petty reasoning').setRequired(true)),
     
     async execute(interaction, client) {
         const member = interaction.options.getUser('loser');
-        let reason = interactin.options.getString('reason');
+        let reason = interaction.options.getString('reason');
         
         const dmEmbed = new EmbedBuilder()
         .setColor("Blue")
