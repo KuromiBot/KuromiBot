@@ -1,7 +1,5 @@
 const {
     EmbedBuilder,
-    ActionRowBuilder,
-    ButtonBuilder,
     SlashCommandBuilder,
   } = require("discord.js");
   const { QuickDB } = require(`quick.db`);
