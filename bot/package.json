@@ -1,5 +1,6 @@
 {
   "scripts": {
+    "preinstall": "npx only-allow pnpm", 
     "start": "node index.js",
     "dev": "nodemon index.js",
     "format": "prettier --write  \"src/**/*.js\""
