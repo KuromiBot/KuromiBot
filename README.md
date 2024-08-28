@@ -79,7 +79,7 @@ KuromiBot is a bot designed specifically for friend servers just to have fun and
 <!-- GETTING STARTED -->
 ## Getting Started
 
-To get a local copy up and running follow these simple example steps.
+To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
 * NodeJS
@@ -96,11 +96,12 @@ To get a local copy up and running follow these simple example steps.
    ```sh
     npm install
     ```
-3. Create a `.env` file with th following code:
+3. Create a `.env` file with the following values:
     ```env
     TOKEN= <TOKEN>
     GUILD_ID= <GUILD ID if in Development>
     STATUS=DEVELOPMENT <Change to PRODUCTION to load commands on every guild>
+    TENORAPI= <Google Tenor API Key>
     STATUSBOT= <The status for your bot>
     DISCORDSTATUS=dnd <Change to whatever you want>
     ```
